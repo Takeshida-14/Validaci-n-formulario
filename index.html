@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Validacion de Formulario</title>
+ <style>
+        body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f8f9fa;
+	text-align: center;
+	background-image: url(1388880_20250211165956_1.png);
+        }
+		  form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+		#apDiv1 {
+	position: absolute;
+	width: 231px;
+	height: 192px;
+	z-index: 1;
+	left: 827px;
+	top: 25px;
+}
+ #apDiv2 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	left: 841px;
+	top: 712px;
+}
+ </style>
+<script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+<form action="contacto.html" method="get">
+  <p>INGRESA TU EDAD Y TU NOMBRE  </p>
+  <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required onkeypress="validarEntradaNombre(event)">
+        <br><br>
+        <label for="nombre">Apellidos:</label>
+        <input type="text" id="nombre" name="nombre" required onkeypress="validarEntradaNombre(event)">
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" required onkeypress="validarEntradaEdad(event)">
+    </p>
+  <p align="center">
+    <input type="reset" name="Limpiar" id="Limpiar" value="Limpiar"/>
+  </p>
+  <p align="center">
+    <button type="submit">Enviar</button>
+  </p>
+<p align="center">&nbsp;</p>
+
+</form>
+</div>
+<div id="apDiv2">
+  <embed src="2577139_e76e3.gif" width="107" height="123"></embed>
+</div>
+<div id="apDiv1">
+  <embed src="sayori-with-the-family-computer-2006-by-khyleri-v0-ytrw6bktmb2c1.png" width="253" height="221"></embed>
+</div>
+</body>
+</html>
